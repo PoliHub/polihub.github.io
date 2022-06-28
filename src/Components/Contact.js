@@ -36,7 +36,7 @@ class Contact extends Component {
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
-                      Name <span className="required">*</span>
+                      Nome <span className="required">*</span>
                     </label>
                     <input
                       type="text"
@@ -76,7 +76,7 @@ class Contact extends Component {
 
                   <div>
                     <label htmlFor="contactMessage">
-                      Message <span className="required">*</span>
+                      Menssagem <span className="required">*</span>
                     </label>
                     <textarea
                       cols="50"
@@ -87,7 +87,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit">Enviar</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
@@ -106,7 +106,7 @@ class Contact extends Component {
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
+                <h4>Contato</h4>
                 <p className="address">
                   {name}
                   <br />
@@ -118,13 +118,11 @@ class Contact extends Component {
               </div>
 
               <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
+                <h4 className="widget-title">Últimos Eventos</h4>
                 <ul id="twitter">
                   <li>
                     <span>
-                      This is Photoshop's version of Lorem Ipsum. Proin gravida
-                      nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                      quis bibendum auctor, nisi elit consequat ipsum
+                      Festa Junina do EP 
                       <a href="./">http://t.co/CGIrdxIlI3</a>
                     </span>
                     <b>
@@ -133,10 +131,7 @@ class Contact extends Component {
                   </li>
                   <li>
                     <span>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et
-                      quasi
+                      Aniversário do João
                       <a href="./">http://t.co/CGIrdxIlI3</a>
                     </span>
                     <b>

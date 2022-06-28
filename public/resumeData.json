@@ -1,19 +1,20 @@
 {
   "main": {
     "name":"PoliHub / Escritório Piloto",
-    "description":"Transforme suas ideias em realidade. Sites, Aplicativos, APIs, Cloud, IoT.",
+    "description":"Transforme suas ideias em realidade. Aprenda a criar projetos digitais com a gente",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "members":["member_1.jpg","member_2.jpg","member_3.jpg","member_4.jpg"],
+    "bio":"PoliHub é um grupo de alunos que acredita que o conhecimento técnico adquirido na Escola Politécnica não deveria parar nas notas de aula de cada um. Você já pensou num ideia que gostaria de colocar em prática mas que não foi adiante por falta não saber como programar?  Monitorar filas no bandejão com machine learning? Criar uma rede social só pra POLI? Automatizar a venda de ingressos pra um evento do centrinho? Tudo é possível hoje e só que você precisa é alguem pra te mostrar como. É por isso que estamos aqui. Todos os dias. No Escritório Piloto, S-33 da Civil.",
+    "contactmessage":"Quer doar servidores, switchs, computadores, telas ou arduinos para a gente?.",
+    "email": "escritoriopilotousp@gmail.com",
+    "phone": "(11) 943303010",
+    "github":"https://github.com/PoliHub",
+    "project":"https://github.com/PoliHub",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Prédio da Civil, POLI-USP",
+      "city":"São Paulo",
+      "state":"SP",
+      "zip": "05510-020"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
@@ -46,24 +47,24 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Essas são as tecnologias que você pode aprender com a gente:",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"(Em Breve) Web do zero: HTML + CSS + JS",
+        "degree":"Faruk Hammoud",
+        "graduated":"Setembro 2022",
+        "description":"Quer criar um site do zero e entender como cada parte funciona? Esse workshop é pra você."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"(Em Breve) Internet Of Things: Do mundo real ao digital",
+        "degree":"Gabriel Reis",
+        "graduated":"Outubro 2022",
+        "description":"Como medir a temperatura do seu quarto em tempo real? Acionar uma lâmpada com comando de voz? Esse workshop é pra você."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
+        "company":"(Em Breve) Web do zero: HTML + CSS + JS",
         "title":"Senior UX God ",
         "years":"March 2018 - Present",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
@@ -77,11 +78,11 @@
     ],
     "skills":[
       {
-        "name":"Python",
+        "name":"Python - Flask",
         "level":"60%"
       },
       {
-        "name":"VueJs",
+        "name":"Node.JS",
         "level":"55%"
       },
       {
@@ -93,92 +94,57 @@
         "level":"90%"
       },
       {
-        "name":"PHP",
+        "name":"HTML",
         "level":"80%"
       },
       {
-        "name":"Swift",
+        "name":"JS",
         "level":"50%"
       },
       {
-        "name":"JAVA",
+        "name":"React Native",
         "level":"80%"
+      },
+      {
+        "name":"Arduino + ESP8266",
+        "level":"30%"
       }
+      ,
+      {
+        "name":"Cloud: AWS + GCloud + Azure",
+        "level":"90%"
+      },
+      {
+        "name":"Docker",
+        "level":"60%"
+      },
+      {
+        "name":"C# + Blazor",
+        "level":"40%"
+      }
+      
+
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
+        "title":"Tela de anúncios do EP",
         "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "image":"project_1.jpeg",
+        "url":""
       },
       {
-        "title":"Fury Fighting Gear",
+        "title":"PoliHub WebSite",
         "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "image":"project_2.png",
+        "url":"https://polihub.github.io/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
+        "title":"processing-py",
         "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "image":"project_3.png",
+        "url":"https://pypi.org/project/processing-py/"
       }
     ]
   }
